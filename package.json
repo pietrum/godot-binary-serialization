@@ -1,0 +1,25 @@
+{
+  "name": "GodotBS",
+  "version": "0.1.0",
+  "description": "Godot has a simple serialization API based on Variant. It’s used for converting data types to an array of bytes efficiently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run ci",
+    "lint": "eslint lib index.js",
+    "ci": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pietrum/GodotBS.git"
+  },
+  "author": "Fulkman <fulkman@pietrum.pl> (http://www.pietrum.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pietrum/GodotBS/issues"
+  },
+  "homepage": "https://github.com/Pietrum/GodotBS#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "jest": "^22.0.4"
+  }
+}
