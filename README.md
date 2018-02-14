@@ -1,26 +1,30 @@
 # Godot Binary Serialization
 Godot has a simple serialization API based on Variant. It’s used for converting data types to an array of bytes efficiently.
 
-[![Travis CI](https://travis-ci.org/Pietrum/GodotBS.svg?branch=master)](https://travis-ci.org/Pietrum/GodotBS)
-[![Dependency Status](https://david-dm.org/Pietrum/godotbs.svg)](https://david-dm.org/Pietrum/godotbs)
-[![devDependency Status](https://david-dm.org/Pietrum/godotbs/dev-status.svg)](https://david-dm.org/Pietrum/godotbs#info=devDependencies)
+[![Travis CI](https://travis-ci.org/Pietrum/godot-binary-serialization.svg?branch=master)](https://travis-ci.org/Pietrum/godot-binary-serialization)
+[![Dependency Status](https://david-dm.org/Pietrum/godot-binary-serialization.svg)](https://david-dm.org/Pietrum/godot-binary-serialization)
+[![devDependency Status](https://david-dm.org/Pietrum/godot-binary-serialization/dev-status.svg)](https://david-dm.org/Pietrum/godot-binary-serialization#info=devDependencies)
 
-[![NPM](https://nodei.co/npm/godotbs.png?downloads=true)](https://nodei.co/npm/godotbs/)
+[![NPM](https://nodei.co/npm/godot-binary-serialization.png?downloads=true)](https://nodei.co/npm/godot-binary-serialization/)
+
+http://docs.godotengine.org/en/latest/tutorials/misc/binary_serialization_api.html
+(version 3.x)
 
 ## Quick Start
 
 ### Install
-
 ```bash
-$ npm install [--save] godotbs
+$ npm install [--save] godot-binary-serialization
 ```
+
+### Requirements
+Godot version 3.0
 
 ## Basic Usage
 
 #### UDP
-
 ```javascript
-const packetPeer = require('godotbs').PacketPeer;
+const packetPeer = require('godot-binary-serialization').PacketPeer;
 ```
 
 ```javascript
@@ -32,9 +36,8 @@ const encoded = packetPeer.put_var(variant);
 ```
 
 #### TCP
-
 ```javascript
-const streamPeer = require('godotbs').StreamPeer;
+const streamPeer = require('godot-binary-serialization').StreamPeer;
 ```
 
 ```javascript
@@ -57,14 +60,12 @@ const encoded = streamPeer.put_float(variant);
 ```
 
 ##### Available 
-
 - [x] Signed Int (8-/16-/32-/64-bits)
 - [x] Unsigned Int (8-/16-/32-/64-bits)
 - [x] Real (float/double)
 - [x] String
 
 ## Already Supported
-
 atomic types
 - [x] BOOL
 - [x] INT

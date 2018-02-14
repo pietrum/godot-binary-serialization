@@ -1,6 +1,6 @@
 {
-  "name": "godotbs",
-  "version": "0.1.2",
+  "name": "godot-binary-serialization",
+  "version": "0.1.3",
   "description": "Godot has a simple serialization API based on Variant. It’s used for converting data types to an array of bytes efficiently.",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pietrum/GodotBS.git"
+    "url": "git+https://github.com/Pietrum/godot-binary-serialization.git"
   },
   "author": "Fulkman <fulkman@pietrum.pl> (http://www.pietrum.pl)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pietrum/GodotBS/issues"
+    "url": "https://github.com/Pietrum/godot-binary-serialization/issues"
   },
-  "homepage": "https://github.com/Pietrum/GodotBS#readme",
+  "homepage": "https://github.com/Pietrum/godot-binary-serialization#readme",
   "devDependencies": {
     "eslint": "^4.14.0",
     "jest": "^22.0.4"
