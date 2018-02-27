@@ -20,6 +20,8 @@
   "homepage": "https://github.com/Pietrum/godot-binary-serialization#readme",
   "devDependencies": {
     "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
     "jest": "^22.0.4"
   }
 }
