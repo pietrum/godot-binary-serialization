@@ -1,7 +1,9 @@
 language: node_js
 
 node_js:
-  - "8.9"
+  - "lts/boron"
+  - "lts/carbon"
+  - "9"
 
 branches:
   only:
