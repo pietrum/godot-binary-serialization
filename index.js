@@ -1,4 +1,18 @@
 const PacketPeer = require('./lib/packetpeer');
 const StreamPeer = require('./lib/streampeer');
 
-module.exports = { PacketPeer, StreamPeer };
+const AABB = require('./lib/math/aabb');
+const Basis = require('./lib/math/basis');
+const Plane = require('./lib/math/plane');
+const Quat = require('./lib/math/quat');
+const Rect2 = require('./lib/math/rect2');
+const Transform = require('./lib/math/transform');
+const Transform2D = require('./lib/math/transform2d');
+const Vector2 = require('./lib/math/vector2');
+const Vector3 = require('./lib/math/vector3');
+
+const math = {
+  AABB, Basis, Plane, Quat, Rect2, Transform, Transform2D, Vector2, Vector3,
+};
+
+module.exports = { math, PacketPeer, StreamPeer };
