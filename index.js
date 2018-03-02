@@ -11,8 +11,17 @@ const Transform2D = require('./lib/math/transform2d');
 const Vector2 = require('./lib/math/vector2');
 const Vector3 = require('./lib/math/vector3');
 
+const Color = require('./lib/misc/color');
+const NodePath = require('./lib/misc/node_path');
+
 const math = {
   AABB, Basis, Plane, Quat, Rect2, Transform, Transform2D, Vector2, Vector3,
 };
 
-module.exports = { math, PacketPeer, StreamPeer };
+const misc = {
+  Color, NodePath,
+};
+
+module.exports = {
+  math, misc, PacketPeer, StreamPeer,
+};
