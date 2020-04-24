@@ -19,7 +19,7 @@ func _ready():
 	self.set_process(false)
 
 	# TCP connection
-	streamPeerTCP = StreamPeerTCP.new();
+	streamPeerTCP = StreamPeerTCP.new()
 	streamPeerTCP.connect_to_host(HOST, PORT)
 
 	packetPeerStream = PacketPeerStream.new()
