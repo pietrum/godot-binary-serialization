@@ -3,7 +3,9 @@ language: node_js
 node_js:
   - "lts/boron"
   - "lts/carbon"
-  - "9"
+  - "lts/dubnium"
+  - "lts/erbium"
+  - "13"
 
 branches:
   only:
