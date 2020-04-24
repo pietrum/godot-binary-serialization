@@ -84,12 +84,12 @@ math types
 - [x] VECTOR3
 
 misc types
-- [ ] COLOR
-- [ ] NODE_PATH
+- [x] COLOR
+- [x] NODE_PATH
 - [ ] _RID
 - [ ] OBJECT
 - [x] DICTIONARY
-- [ ] ARRAY
+- [x] ARRAY
 
 arrays
 - [ ] POOL_BYTE_ARRAY
