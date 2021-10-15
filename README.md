@@ -1,7 +1,7 @@
 # Godot Binary Serialization
 Godot has a simple serialization API based on Variant. It’s used for converting data types to an array of bytes efficiently.
 
-[![Travis CI](https://travis-ci.org/Pietrum/godot-binary-serialization.svg?branch=master)](https://travis-ci.org/Pietrum/godot-binary-serialization)
+[![Build Status](https://app.travis-ci.com/Pietrum/godot-binary-serialization.svg?branch=master)](https://app.travis-ci.com/Pietrum/godot-binary-serialization)
 
 [![NPM](https://nodei.co/npm/godot-binary-serialization.png?downloads=true)](https://nodei.co/npm/godot-binary-serialization/)
 
