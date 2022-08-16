@@ -1,9 +1,11 @@
 language: node_js
 
 node_js:
-  - "lts/dubnium"
-  - "lts/erbium"
-  - "13"
+  - "10"
+  - "12"
+  - "14"
+  - "16"
+  - "18"
 
 branches:
   only:

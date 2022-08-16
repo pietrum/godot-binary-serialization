@@ -1,6 +1,6 @@
 {
   "name": "godot-binary-serialization",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Godot has a simple serialization API based on Variant. It’s used for converting data types to an array of bytes efficiently.",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/pietrum/godot-binary-serialization#readme",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.2",
-    "jest": "^27.2.5"
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.3"
   }
 }
